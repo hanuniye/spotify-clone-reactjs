@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: #282828;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    height: 80px;
+}
+
+.footer_center_icon{
+    cursor: pointer;
+}
+
+.footer_center_icon:hover{
+    transition:  transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+}
+
+.right_footer * .MuiSlider-root {
+    color: green;
+}
+
+.body{
+    background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+    overflow-y: scroll;
+}
+
+.body::-webkit-scrollbar{
+    display: none;
+}
+
+.dsicover-img{
+    box-shadow: 0px 4px 60px rgba(0,0,0,.5);
+}
+
+.play__circule{
+    font-size: 70px !important;
+}
+
+.play__circule:hover{
+    transition: 200ms all ease-in;
+    transform: scale(1.2);
+}
