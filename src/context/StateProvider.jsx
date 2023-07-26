@@ -7,3 +7,4 @@ export const StateProvider = ({ initialState, reducer, children }) => {
         {children}
     </stateContext.Provider>
 }
+const real = "real"
